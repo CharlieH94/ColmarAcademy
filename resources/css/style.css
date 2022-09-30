@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -19,7 +18,6 @@ nav  {
     align-items: center;
     padding: 1em 1.5em;
     background-color: #fff;
-    border-bottom: black 1px solid;
 }
 
 nav .logo {
@@ -27,7 +25,22 @@ nav .logo {
     align-items: center;
 }
 
+h1 {
+    font-size: 16px;
+}
+
+h1 .colmar {
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+}
+
+h1 .academy {
+    font-weight: lighter;
+    color: silver;
+}
+
 nav ul {
+    color: rgb(56, 56, 56);
     display: inline-flex;
     align-items: center;
 }
@@ -39,10 +52,51 @@ nav li {
 
 
 /* Main & Sections */
-
-.banner {
-    background-color: lightgrey;
+main {
+    background-color: lightgray;
 }
 
+.banner {
+    display: inline-flex;
+    padding: 32px 24px;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+}
+
+.banner-text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 128px;
+    padding: 24px;
+}
+
+.banner-text h2 {
+    font-size: 40px;
+}
+
+.banner-text p {
+    font-size: 24px;
+}
+
+.banner-text h2,
+p {
+    color: rgb(56, 56, 56);
+    padding-bottom: 24px;
+}
+
+.button {
+    background-color: rgb(56, 56, 56);
+}
+
+.button h3 {
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
 
 /* Footer */
