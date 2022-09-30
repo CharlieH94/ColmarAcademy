@@ -1,0 +1,48 @@
+/* Universal Styles*/ /*  html background colour, font family and size for example */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Header */ /* contains nav and h1 often, also background images etc) */
+
+/* Nav */
+
+nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    background-color: #fff;
+    border-bottom: black 1px solid;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: inline-flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 0 0 1em;
+}
+
+
+/* Main & Sections */
+
+.banner {
+    background-color: lightgrey;
+}
+
+
+/* Footer */
