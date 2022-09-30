@@ -194,6 +194,42 @@ div.information-segment:hover {
 
 /* Learning */
 
+#learning {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 32px 40px;
+}
+
+/* #learning h2 {
+    
+} */
+
+.selection-grid {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.grid-item {
+    margin: 32px;
+    width: 28%;
+    background-color: white;
+    padding-bottom: 16px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item h3 {
+    padding: 16px;
+}
+
+.grid-item p {
+    padding: 0 16px 8px 16px;
+}
+
 /* Thesis */
 
 /* Footer */
