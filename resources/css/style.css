@@ -151,6 +151,9 @@ body {
 .right-column {
     width: 40%;
     padding: 16px 0px;
+}
+
+#practicing .right-column {
     border-left: silver 1px solid;
 }
 
@@ -201,10 +204,6 @@ div.information-segment:hover {
     padding: 32px 40px;
 }
 
-/* #learning h2 {
-    
-} */
-
 .selection-grid {
     display: inline-flex;
     flex-flow: row wrap;
@@ -224,12 +223,62 @@ div.information-segment:hover {
 
 .grid-item h3 {
     padding: 16px;
+    color: rgb(56, 56, 56)
 }
 
 .grid-item p {
     padding: 0 16px 8px 16px;
+    color: gray;
 }
 
 /* Thesis */
 
+#thesis {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 32px;
+}
+
+#thesis h2,
+#thesis h3 {
+    color:rgb(56, 56, 56);
+}
+
+#thesis p {
+    color: gray;
+}
+
+.content-container {
+    display: inline-flex;
+}
+
+.left-column video {
+    width: 100%;
+}
+
 /* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: white;
+    border-top: silver solid 1px;
+}
+
+footer small {
+    color: gray;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+    padding: 8px;
+}
