@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    scroll-behavior: smooth;
 }
 
 body {
     flex-flow: column wrap; 
+    background-color: lightgray;
 }
 
 h2 {
@@ -20,7 +26,7 @@ h3 {
 }
 
 .subheading {
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 
@@ -32,7 +38,7 @@ nav  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 1.5em;
+    padding: 1rem 1.5rem;
     background-color: #fff;
     position: fixed;
     top: 0;
@@ -45,7 +51,7 @@ nav .logo {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 h1 .colmar {
@@ -65,7 +71,7 @@ nav ul {
 nav li {
     list-style: none;
     justify-content: space-between;
-    padding: 0 0 0 1em;
+    padding: 0 0 0 1rem;
 }
 
 nav a {
@@ -75,17 +81,14 @@ nav a {
 
 
 /* Main & Sections */
-body {
-    background-color: lightgray;
-}
 
 /* Banner */
 
 #banner {
     display: flex;
     align-items: center;
-    margin-top: 64px;
-    padding: 32px 24px;
+    margin-top: 4rem;
+    padding: 2rem 1.5rem;
     border-bottom: solid white 1px;
 }
 
@@ -95,24 +98,24 @@ body {
 
 .banner-text {
     display: inline-flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: left;
-    margin-right: 128px;
-    padding: 24px;
+    margin-right: 8rem;
+    padding: 1.5rem;
 }
 
 .banner-text h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .banner-text p {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .banner-text h2,
 .banner-text p {
     color: rgb(56, 56, 56);
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 }
 
 .button {
@@ -120,7 +123,7 @@ body {
 }
 
 .button h3 {
-    padding: 8px;
+    padding: 0.5rem;
     color: white;
     text-align: center;
     font-weight: normal;
@@ -142,7 +145,7 @@ body {
     display: inline-flex;
     flex-flow: column wrap;
     width: 60%;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
     color:rgb(56, 56, 56);
 }
 
@@ -151,19 +154,18 @@ body {
 }
 
 .left-column h2 {
-    padding-top: 32px;
-    padding-bottom: 24px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .left-column p {
-    padding: 0 16px 32px 0;
-    font-size: 16px;
+    padding: 0 1rem 2rem 0;
     color: rgb(59,59,59);
 }
 
 .right-column {
     width: 40%;
-    padding: 16px 0px;
+    padding: 1rem 0;
 }
 
 #practicing .right-column {
@@ -176,7 +178,7 @@ body {
 
 .information-segment {
     display: flex;
-    padding: 16px;
+    padding: 1rem;
 }
 
 #practicing .information-segment {
@@ -195,7 +197,7 @@ div.information-segment:hover {
 
 .info-segment-text {
     color:rgb(56, 56, 56);
-    padding: 16px;
+    padding: 1rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -203,7 +205,7 @@ div.information-segment:hover {
 }
 
 .info-segment-text p {
-    padding-top: 8px;
+    padding-top: 0.5rem;
 }
 
 .info-segment-text a {
@@ -217,7 +219,7 @@ div.information-segment:hover {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 32px 40px;
+    padding: 2rem 2.5rem;
 }
 
 .selection-grid {
@@ -226,10 +228,12 @@ div.information-segment:hover {
 }
 
 .grid-item {
-    margin: 32px;
+    margin: 2rem;
     width: 28%;
     background-color: white;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
+    flex-flow: column wrap;
+    overflow: hidden;
 }
 
 .grid-item img {
@@ -238,12 +242,13 @@ div.information-segment:hover {
 }
 
 .grid-item h3 {
-    padding: 16px;
+    padding: 1rem;
 }
 
 .grid-item p {
-    padding: 0 16px 8px 16px;
-    color: rgb(59,59,59);;
+    padding: 0 1rem 0.5rem 1rem;
+    color: rgb(59,59,59);
+    flex-wrap: wrap;
 }
 
 /* Thesis */
@@ -253,14 +258,14 @@ div.information-segment:hover {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 32px 0px 0 24px;
+    padding: 2rem 0 0 1.5rem;
 }
 
 #thesis .left-column {
     padding-left: 0;
 }
 #thesis .left-column h3 {
-    padding: 24px 0 8px 0;
+    padding: 1.5rem 0 0.5rem 0;
 }
 
 #thesis p {
@@ -282,7 +287,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
     background-color: white;
     border-top: silver solid 1px;
 }
@@ -298,5 +303,5 @@ footer ul {
 
 footer li {
     list-style: none;
-    padding: 8px;
+    padding: 0.5rem;
 }
