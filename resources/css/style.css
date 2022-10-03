@@ -314,6 +314,9 @@ footer li {
 /* Small Screen Responsiveness */
 
 @media only screen and (max-width: 541px) {
+   
+    /* Nav */
+   
     h1 {
         display: none;
     }
@@ -330,6 +333,38 @@ footer li {
         display: inline-flex;
         justify-content: space-between;
     }
+    
+    /* Banner */
+
+    #banner {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+        margin-top: 4rem;
+        padding: 0;
+        border-bottom: solid white 1px;
+    }
+    
+    #banner img {
+        width: 100%;
+    }
+    
+    .banner-text {
+        margin-right: 0;
+        padding: 2rem 1rem;
+    }
+    
+    .banner-text h2 {
+        padding-bottom: 2rem;
+    }
+    
+    /* Practicing */
+
+    /* Learning */
+
+    /* Thesis */
+
+    /* Footer */
 }
 
 @media only screen and (max-width: 470px) {
