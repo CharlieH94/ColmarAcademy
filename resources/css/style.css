@@ -68,6 +68,7 @@ nav ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     justify-content: space-between;
@@ -329,13 +330,15 @@ footer li {
         width: 85%;
         justify-content: space-around;
     }
+   
     .desktop-option {
         display: none;
     }
 
     .mobile-icon {
-        display: inline-flex;
+        display: flex;
         justify-content: space-between;
+        align-content: center;
     }
     
     /* Banner */
@@ -364,7 +367,7 @@ footer li {
     
     /* Practicing */
 
-    .left-column {
+    #practicing .left-column {
         display: none;
     }
     
@@ -402,7 +405,42 @@ footer li {
 
     /* Learning */
 
+    #learning {
+        background-color: white;
+        padding: 0 1rem 1.5rem 1rem;
+    }
+
+    #learning h2 {
+        padding-bottom: 1rem;
+    }
+
+    .desktop-option-start {
+        display: none;
+    }
+
+    .selection-grid {
+        display: inline-flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+
+    .grid-item {
+        width: 100%;
+        background-color: lightgray;
+        margin: 0 0 0.5rem 0;
+        padding: 0;
+    }
+
+    .grid-item h3 {
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+    
+
     /* Thesis */
+
+    #thesis .right-column {
+        display: none;
+    }
 
     /* Footer */
 }
