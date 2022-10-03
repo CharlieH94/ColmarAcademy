@@ -74,6 +74,10 @@ nav li {
     padding: 0 0 0 1rem;
 }
 
+.mobile-icon {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
     color: rgb(56, 56, 56);
@@ -304,4 +308,30 @@ footer ul {
 footer li {
     list-style: none;
     padding: 0.5rem;
+}
+
+
+/* Small Screen Responsiveness */
+
+@media only screen and (max-width: 541px) {
+    h1 {
+        display: none;
+    }
+    
+    nav ul {
+        width: 85%;
+        justify-content: space-around;
+    }
+    .desktop-option {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
 }
