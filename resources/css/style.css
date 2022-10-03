@@ -55,7 +55,7 @@ h1 .colmar {
 
 h1 .academy {
     font-weight: lighter;
-    color: silver;
+    color: grey;
 }
 
 nav ul {
@@ -158,7 +158,7 @@ body {
 .left-column p {
     padding: 0 16px 32px 0;
     font-size: 16px;
-    color: gray;
+    color: rgb(59,59,59);
 }
 
 .right-column {
@@ -243,7 +243,7 @@ div.information-segment:hover {
 
 .grid-item p {
     padding: 0 16px 8px 16px;
-    color: gray;
+    color: rgb(59,59,59);;
 }
 
 /* Thesis */
@@ -264,7 +264,7 @@ div.information-segment:hover {
 }
 
 #thesis p {
-    color: gray;
+    color: rgb(59,59,59);
     padding-bottom: 0;
 }
 
