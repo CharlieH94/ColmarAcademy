@@ -273,6 +273,7 @@ div.information-segment:hover {
 #thesis .left-column {
     padding-left: 0;
 }
+
 #thesis .left-column h3 {
     padding: 1.5rem 0 0.5rem 0;
 }
@@ -399,7 +400,7 @@ footer li {
     }
 
     .info-segment-text {
-        padding: 1rem 1rem 0 1rem;
+        padding: 2rem 1rem 0 1rem;
         width: 100%;
     }
 
@@ -437,14 +438,36 @@ footer li {
     
 
     /* Thesis */
+    
+    #thesis {
+        padding: 2rem 0 1.5rem 0;
+    }
 
     #thesis .right-column {
         display: none;
     }
 
+    #thesis .subheading {
+        padding-bottom: 1rem;
+    }
+    
+    #thesis .left-column {
+        width: 100%;
+        padding: 0;
+    }
+
     /* Footer */
-}
 
-@media only screen and (max-width: 470px) {
+    footer {
+        border: none;
+    }
 
+    footer small {
+        color: rgb(56, 56, 56);
+        font-size: 1rem;
+    }
+
+    footer ul {
+        display: none;
+    }
 }
