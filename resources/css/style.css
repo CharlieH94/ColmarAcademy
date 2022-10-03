@@ -194,9 +194,13 @@ div.information-segment:hover {
     background-color:silver;
 }
 
-.info-segment-image {
+.desktop-option {
     width: 35%;
     height: auto;
+}
+
+.mobile-option {
+    display: none;
 }
 
 .info-segment-text {
@@ -359,6 +363,42 @@ footer li {
     }
     
     /* Practicing */
+
+    .left-column {
+        display: none;
+    }
+    
+    .right-column {
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+    
+    #practicing .right-column {
+        border: none;
+    }
+    
+    .information-segment {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #practicing .information-segment {
+        border: none;
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .mobile-option {
+        display: block;
+    }
+    
+    .info-segment {
+        width: 100%;
+    }
+
+    .info-segment-text {
+        padding: 1rem 1rem 0 1rem;
+        width: 100%;
+    }
 
     /* Learning */
 
