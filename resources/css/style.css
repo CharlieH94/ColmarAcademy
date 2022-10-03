@@ -184,6 +184,7 @@ nav a {
 .information-segment {
     display: flex;
     padding: 1rem;
+    align-items: center;
 }
 
 #practicing .information-segment {
@@ -197,7 +198,7 @@ div.information-segment:hover {
 
 .desktop-option {
     width: 35%;
-    height: auto;
+    max-height: 100%;
 }
 
 .mobile-option {
@@ -394,7 +395,7 @@ footer li {
     .mobile-option {
         display: block;
         width: 100%;
-        height: auto;
+        max-height: 100%;
     }
     
     .info-segment {
