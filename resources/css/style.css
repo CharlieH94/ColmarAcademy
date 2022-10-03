@@ -393,6 +393,7 @@ footer li {
 
     .mobile-option {
         display: block;
+        height: auto;
     }
     
     .info-segment {
