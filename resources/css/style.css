@@ -235,10 +235,11 @@ div.information-segment:hover {
 .selection-grid {
     display: inline-flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .grid-item {
-    margin: 2rem;
+    margin: 2rem 1.75rem;
     width: 28%;
     background-color: white;
     padding-bottom: 1rem;
